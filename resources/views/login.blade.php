@@ -20,8 +20,8 @@
                     <div class="mb-3">
                         <input type="password" class="form-control" id="passwordSignUp" aria-label="Enter your password" placeholder="Enter your password" required>
                     </div>
-                    <a href="index.html" class="btn btn-primary">
-                    <i class="bi bi-box-arrow-in-right"></i> Login
+                    <a href="{{ url('/dashboard') }}" class="btn btn-success" aria-label="Login to Patient Portal">
+                        <i class="bi bi-box-arrow-in-right"></i> Login
                     </a>
                 </form>
             </div>

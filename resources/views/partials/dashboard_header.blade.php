@@ -4,7 +4,9 @@
         <h1 class="h5 mb-0 fw-bold">HealthHub Connect</h1>
         <div>
             <span>Hi, Alpha</span>
-            <button class="btn btn-outline-light" id="logoutButton"><i class="bi bi-box-arrow-right"></i> Logout</button>
+            <a href="{{ url('/login') }}" class="btn btn-outline-light" id="logoutButton">
+                <i class="bi bi-box-arrow-in-right"></i> Logout
+            </a>
         </div>
     </div>
 </header>
